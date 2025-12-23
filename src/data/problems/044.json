@@ -1,0 +1,30 @@
+{
+  "problem_id": "044",
+  "initial_string": "DBDDBDBBDB",
+  "transitions": [
+    {
+      "src": "D",
+      "tgt": "A"
+    },
+    {
+      "src": "EEDB",
+      "tgt": "AEE"
+    },
+    {
+      "src": "DE",
+      "tgt": "DD"
+    },
+    {
+      "src": "BD",
+      "tgt": "DB"
+    },
+    {
+      "src": "DB",
+      "tgt": ""
+    },
+    {
+      "src": "CAC",
+      "tgt": "C"
+    }
+  ]
+}

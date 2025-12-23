@@ -1,0 +1,34 @@
+{
+  "problem_id": "060",
+  "initial_string": "111DcDcDc",
+  "transitions": [
+    {
+      "src": "cD",
+      "tgt": "Dc"
+    },
+    {
+      "src": "2#3A",
+      "tgt": "301{"
+    },
+    {
+      "src": "}",
+      "tgt": "b#"
+    },
+    {
+      "src": "1Dc",
+      "tgt": ""
+    },
+    {
+      "src": "4402",
+      "tgt": "[b0"
+    },
+    {
+      "src": "1Bc",
+      "tgt": "a"
+    },
+    {
+      "src": "23",
+      "tgt": "a?"
+    }
+  ]
+}

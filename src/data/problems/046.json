@@ -1,0 +1,26 @@
+{
+  "problem_id": "046",
+  "initial_string": "CEDCEDCEDCEDCEDCEDBB",
+  "transitions": [
+    {
+      "src": "CED",
+      "tgt": ""
+    },
+    {
+      "src": "BB",
+      "tgt": ""
+    },
+    {
+      "src": "DC",
+      "tgt": "CD"
+    },
+    {
+      "src": "CDC",
+      "tgt": "CBB"
+    },
+    {
+      "src": "CD",
+      "tgt": "AEE"
+    }
+  ]
+}

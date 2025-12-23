@@ -1,0 +1,26 @@
+{
+  "problem_id": "064",
+  "initial_string": "!!A{!A{e{!Ae{eeAee",
+  "transitions": [
+    {
+      "src": "e{",
+      "tgt": "{e"
+    },
+    {
+      "src": "e",
+      "tgt": ""
+    },
+    {
+      "src": "!A",
+      "tgt": ""
+    },
+    {
+      "src": "{",
+      "tgt": ""
+    },
+    {
+      "src": "3{?",
+      "tgt": "{4"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "problem_id": "078",
+  "initial_string": "}}e4}e}}e4}e4e44e4",
+  "transitions": [
+    {
+      "src": "c",
+      "tgt": "D1"
+    },
+    {
+      "src": "0",
+      "tgt": "B"
+    },
+    {
+      "src": "?",
+      "tgt": "{"
+    },
+    {
+      "src": "44",
+      "tgt": "44"
+    },
+    {
+      "src": "}e4",
+      "tgt": ""
+    }
+  ]
+}

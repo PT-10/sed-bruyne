@@ -1,0 +1,30 @@
+{
+  "problem_id": "003",
+  "initial_string": "EAAAACECDACADCECECECECADCAECEC",
+  "transitions": [
+    {
+      "src": "CDE",
+      "tgt": "EBD"
+    },
+    {
+      "src": "ECEC",
+      "tgt": ""
+    },
+    {
+      "src": "DCA",
+      "tgt": ""
+    },
+    {
+      "src": "AC",
+      "tgt": "C"
+    },
+    {
+      "src": "CE",
+      "tgt": "EC"
+    },
+    {
+      "src": "AEE",
+      "tgt": "EDE"
+    }
+  ]
+}

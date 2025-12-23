@@ -1,0 +1,30 @@
+{
+  "problem_id": "075",
+  "initial_string": "}a}a}a}a}a",
+  "transitions": [
+    {
+      "src": "d",
+      "tgt": "?Aba"
+    },
+    {
+      "src": "?}3",
+      "tgt": "3"
+    },
+    {
+      "src": "?d3!",
+      "tgt": "?44"
+    },
+    {
+      "src": "}a",
+      "tgt": "a}"
+    },
+    {
+      "src": "}a",
+      "tgt": ""
+    },
+    {
+      "src": "0c?",
+      "tgt": "#!aaC#"
+    }
+  ]
+}
