@@ -1,0 +1,22 @@
+{
+  "problem_id": "BIN_018",
+  "initial_string": "000101011111",
+  "transitions": [
+    {
+      "src": "11",
+      "tgt": ""
+    },
+    {
+      "src": "01",
+      "tgt": ""
+    },
+    {
+      "src": "010",
+      "tgt": "10"
+    },
+    {
+      "src": "0",
+      "tgt": "1"
+    }
+  ]
+}

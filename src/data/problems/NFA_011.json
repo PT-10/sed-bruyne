@@ -1,0 +1,46 @@
+{
+  "problem_id": "NFA_011",
+  "initial_string": "Q0110001",
+  "transitions": [
+    {
+      "src": "Q01",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q31",
+      "tgt": "Q2"
+    },
+    {
+      "src": "Q20",
+      "tgt": "Q2"
+    },
+    {
+      "src": "Q20",
+      "tgt": "Q2"
+    },
+    {
+      "src": "Q20",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q31",
+      "tgt": "Q4"
+    },
+    {
+      "src": "Q31",
+      "tgt": "Q0"
+    },
+    {
+      "src": "Q20",
+      "tgt": "Q1"
+    },
+    {
+      "src": "Q30",
+      "tgt": "Q0"
+    },
+    {
+      "src": "Q4",
+      "tgt": ""
+    }
+  ]
+}

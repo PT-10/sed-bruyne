@@ -1,0 +1,8 @@
+{
+  "difficulty_profile": {
+    "type": "nfa_simulation",
+    "difficulty": 3,
+    "states": 6,
+    "path_length": 7
+  }
+}

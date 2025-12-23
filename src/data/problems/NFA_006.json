@@ -1,0 +1,38 @@
+{
+  "problem_id": "NFA_006",
+  "initial_string": "Q011000",
+  "transitions": [
+    {
+      "src": "Q01",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q31",
+      "tgt": "Q0"
+    },
+    {
+      "src": "Q00",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q30",
+      "tgt": "Q2"
+    },
+    {
+      "src": "Q20",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q01",
+      "tgt": "Q2"
+    },
+    {
+      "src": "Q10",
+      "tgt": "Q2"
+    },
+    {
+      "src": "Q3",
+      "tgt": ""
+    }
+  ]
+}
