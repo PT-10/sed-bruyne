@@ -35,3 +35,9 @@ sudo apt install -y graphviz build-essential cmake git
 ```
 
 For running a local llm via OpenAI compatible endpoint for DSPy prompt-tuning, we run our llms through llama.cpp, you may use a provider of your choice.
+
+## Optimizer Choice
+Ref - https://dspy.ai/learn/optimization/optimizers/\
+Experiments use MIPROv2 optimizer as suggested above, we also run an experiment with SIMBA. 
+
+LLMs used - SmolLM3, Gemini Flash2.5, Claude
