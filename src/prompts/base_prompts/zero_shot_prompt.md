@@ -1,6 +1,25 @@
-You are given a single string-rewriting problem.  
-Your task is to find **any sequence of transitions** that reduces the initial string to the empty string (`""`).  
-You do **not** need to minimize the number of transitions.
+# String Rewriting Problem Solver
+
+## Objective
+Transform the given `initial_string` into an **empty string** (`""`) by applying a sequence of transitions.
+
+---
+
+## Rules
+
+You are provided with:
+- An `initial_string` to transform
+- A list of `transitions`, where each transition has:
+  - `src`: pattern to find in the string
+  - `tgt`: replacement text
+
+**Application Rules:**
+1. **Pattern Matching**: You may apply a transition only if its `src` appears in the current string
+2. **Leftmost Application**: Always replace the **first (leftmost)** occurrence of `src`
+3. **Unlimited Reuse**: Transitions may be applied multiple times and in any order
+4. **Zero-Based Indexing**: Track transitions by their 0-based index in the transitions array
+
+**Goal**: Reach the empty string `""` (you do NOT need to find the shortest solution)
 
 ---
 
@@ -8,41 +27,38 @@ You do **not** need to minimize the number of transitions.
 
 ```json
 {
-  "problem_id": "<id_number>",
+  "problem_id": "<string>",
   "initial_string": "<string>",
   "transitions": [
-    { 
-      "src": "<string>",
-      "tgt": "<string>" 
-    }
+    { "src": "<pattern>", "tgt": "<replacement>" },
+    ...
   ]
 }
 ```
-## Rewrite Rules
 
-When a transition is applied, it must follow these logic constraints:
-
-  - You may choose any transition whose src appears in the string.
-
-   - A transition is applied only to the first (leftmost) occurrence of src in the current string.
-
-  - Transitions may be applied in any order and any number of times.
-
+---
 
 ## Task
-Solve the given problem instance below by producing one valid sequence of transition indices that reduces the initial string to "". Do not include explanations, comments, or extra text.
 
+Solve the problem below by finding **one valid sequence** of transition indices that reduces the initial string to `""`.
+
+**Input:**
 {{PROBLEM_JSON}}
 
-Return one list of transition indices (0-based) that reduces the string to "". The output must exactly match the following format:
+---
+
+## Output Format
+
+Return **only** valid JSON matching this exact structure:
+
 ```json
 {
-  "problem_id": <id_number>,
-  "solution": <list_of_transition_indices>
-  }
+  "problem_id": "<same_as_input>",
+  "solution": [<index_0>, <index_1>, ..., <index_n>]
+}
 ```
 
-
-
-
-
+**Important:**
+- No explanations, comments, or extra text
+- Solution must be a valid sequence that produces the empty string
+- All indices must be valid (0 ≤ index < number of transitions)

@@ -1,0 +1,6 @@
+problem_id,is_valid,llm_solution_length,baseline_solution_length,unsolved_percentage,early_stop,deadend,error
+BIN_003,False,0,,,,,non-integer solution format
+077,False,0,,,,,non-integer solution format
+066,False,0,,,,,non-integer solution format
+078,False,0,,,,,non-integer solution format
+NFA_034,False,0,,,,,non-integer solution format
