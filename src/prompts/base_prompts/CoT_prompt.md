@@ -79,25 +79,6 @@ Follow this step-by-step approach:
 ---
 
 ## Output Format
-
-First, show your reasoning:
-```
-Step 1: Current string = "<string>"
-  → Apply transition [index] ("<src>" → "<tgt>")
-  → New string = "<result>"
-
-Step 2: Current string = "<result>"
-  → Apply transition [index] ("<src>" → "<tgt>")
-  → New string = "<result>"
-
-...
-
-Step N: Current string = "<remaining>"
-  → Apply transition [index] ("<src>" → "<tgt>")
-  → New string = ""
-```
-
-Then, provide the solution:
 ```json
 {
   "problem_id": "<same_as_input>",

@@ -1,0 +1,6 @@
+```json
+{
+  "problem_id": "001",
+  "solution": [0, 1, 3]
+}
+```

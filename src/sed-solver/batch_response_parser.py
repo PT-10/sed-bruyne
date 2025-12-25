@@ -116,7 +116,7 @@ def process_batch(batch: Path, problems, baselines, outdir: Path):
 def main():
     base = Path("./data")
     batches = Path("./data/gemini_batch_responses")
-    out = Path("./data/batch_analysis")
+    out = Path("./data/batch_analysis_markov")
     out.mkdir(exist_ok=True)
 
     problems = read_problem_folder(base / "problems")

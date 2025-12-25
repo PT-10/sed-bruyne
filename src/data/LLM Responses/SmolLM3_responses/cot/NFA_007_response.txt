@@ -1,0 +1,63 @@
+```json
+{
+  "problem_id": "NFA_007",
+  "initial_string": "Q010111",
+  "transitions": [
+    {
+      "src": "Q01",
+      "tgt": "Q0"
+    },
+    {
+      "src": "Q00",
+      "tgt": "Q0"
+    },
+    {
+      "src": "Q01",
+      "tgt": "Q1"
+    },
+    {
+      "src": "Q11",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q31",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q21",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q01",
+      "tgt": "Q3"
+    },
+    {
+      "src": "Q3",
+      "tgt": ""
+    }
+  ],
+  "solution": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+```
+
+**Step-by-Step Explanation:**
+
+1. **Initial String:** `Q010111`
+2. **Transition 0 (src: "Q01", tgt: "Q0"):**
+   - Apply to the first "Q01" in `Q010111` → `Q000111`
+3. **Transition 1 (src: "Q00", tgt: "Q0"):**
+   - Apply to the first "Q00" in `Q000111` → `Q000011`
+4. **Transition 2 (src: "Q01", tgt: "Q1"):**
+   - Apply to the first "Q01" in `Q000011` → `Q000111`
+5. **Transition 3 (src: "Q11", tgt: "Q3"):**
+   - Apply to the first "Q11" in `Q000111` → `Q000311`
+6. **Transition 4 (src: "Q31", tgt: "Q3"):**
+   - Apply to the first "Q31" in `Q000311` → `Q000311`
+7. **Transition 5 (src: "Q21", tgt: "Q3"):**
+   - Apply to the first "Q21" in `Q000311` → `Q000311` (no change)
+8. **Transition 6 (src: "Q01", tgt: "Q3"):**
+   - Apply to the first "Q01" in `Q000311` → `Q000311` (no change)
+9. **Transition 7 (src: "Q3", tgt: "":**
+   - Apply to the first "Q3" in `Q000311` → `""`
+
+**Final Solution:** `[0, 1, 2, 3, 4, 5, 6, 7]`

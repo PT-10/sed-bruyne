@@ -15,6 +15,7 @@ PROMPT_METHODS = {
     "cot": os.path.join(PROMPTS, "CoT_prompt.md"),
     "few_shot": os.path.join(PROMPTS, "few_shot_prompt.md"),
     "few_shot_cot": os.path.join(PROMPTS, "Fewshot_CoT.md"),
+    "markov": os.path("./prompts/base_prompts/smaller_prompts/markov.md")
 }
 
 def load_json(p):
